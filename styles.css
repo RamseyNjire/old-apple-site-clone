@@ -252,19 +252,6 @@ span {
   margin-bottom: 2rem;
 }
 
-.main-section > a {
-  display: block;
-  height: auto;
-  padding: 0;
-  text-decoration: none;
-  color: white;
-  background: black;
-}
-
-.main-section > a:hover {
-  text-decoration: underline;
-}
-
 .your-verse {
   height: 32px;
   width: 980px;
@@ -276,4 +263,74 @@ span {
   cursor: pointer;
   background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png")
     0 32px;
+}
+
+footer {
+  padding: 1em 2.6em;
+  font-size: 0.7em;
+  line-height: 1.2;
+  color: #6e6e6e;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+footer > p, ul, li {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+footer > p {
+  margin-right: 2rem;
+}
+
+.footer-anchor {
+  text-decoration: none;
+  color: #08c;
+}
+
+.footer-anchor:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  position: relative;
+}
+
+.footer-links > li, .privacy-policy > li {
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+
+.footer-links > .first {
+  border: none;
+}
+
+.footer-links > .second-last {
+  border-right: 1px solid #ccc;
+  padding-right: 0.6em;
+}
+
+.footer-links > .last {
+  border: none;
+  margin-left: 0;
+  position: absolute;
+  top: -2px;
+}
+
+.privacy-policy > .terms-of-use {
+  margin-left: none;
+  border: none;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.copyright-statement {
+  display: flex;
 }
