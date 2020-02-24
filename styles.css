@@ -220,6 +220,11 @@ nav > button {
   background: linear-gradient(#202020, #909090);
 }
 
+.navbar-gradient:hover {
+  cursor: pointer;
+  background: radial-gradient(#202020 60%, #909090);
+}
+
 .main-section > h1, h2, span {
   font-family: "Nixie One", Helvetica, Arial, Verdana, sans-serif;
   font-size: 4rem;
