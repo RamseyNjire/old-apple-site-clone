@@ -133,16 +133,15 @@ table {
 }
 
 html {
-  height: 150vh;
+  height: 130vh;
 }
 
 body {
   height: 100%;
-  background: #e0e0e0;
 }
 
 main {
-  height: 85%;
+  height: 90%;
   background: #b0b0b0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -157,24 +156,81 @@ main {
   grid-area: main;
   background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg")
     50% 100% no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .iphone-5s {
   grid-area: iphone-5s;
-  background: #808080;
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg");
 }
 
 .iphone-5c {
   grid-area: iphone-5c;
-  background: #808080;
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg");
 }
 
 .happy-birthday-mac {
   grid-area: happy-birthday-mac;
-  background: #808080;
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg");
 }
 
 .supplier-responsibility {
   grid-area: supplier-responsibility;
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg");
+}
+nav {
+  height: 6%;
+  width: 75%;
+  border-radius: 5px;
   background: #808080;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: 1fr;
+}
+
+nav > button {
+  margin: 1px;
+  outline: none;
+  border: none;
+}
+
+.apple-home {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.apple-home > img {
+  height: 20px;
+  width: 15px;
+}
+
+.searchbar {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.navbar-gradient {
+  color: white;
+  background: linear-gradient(#202020, #909090);
+}
+
+.main-section > h1, h2, span {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  color: white;
+}
+
+.main section > h1 {
+  font-size: 2rem;
+}
+
+.main-section > a {
+  text-decoration: none;
+  color: white;
+}
+
+.main-section > a:hover {
+  text-decoration: underline;
 }
