@@ -185,7 +185,7 @@ nav {
   height: 6%;
   width: 75%;
   border-radius: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 3rem;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
   grid-template-rows: 1fr;
@@ -222,19 +222,41 @@ nav > button {
 
 .main-section > h1, h2, span {
   font-family: "Nixie One", Helvetica, Arial, Verdana, sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
   color: white;
+  text-align: center;
+}
+
+.main-section > h1 {
+  margin-bottom: 1rem;
 }
 
 .main-section > h2 {
   font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .main-section > a {
+  display: block;
+  height: auto;
+  padding: 0;
   text-decoration: none;
   color: white;
+  background: black;
 }
 
 .main-section > a:hover {
   text-decoration: underline;
 }
+
+.your-verse {
+  height: 32px;
+  width: 980px;
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png") 0 0;
+}
+
+.your-verse:hover {
+  cursor: pointer;
+  background: url("https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png") 0 32px;
+}
+
