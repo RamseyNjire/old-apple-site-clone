@@ -301,9 +301,9 @@ footer {
   justify-content: center;
 }
 
-
-
-footer > p, ul, li {
+footer > p,
+ul,
+li {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
@@ -325,7 +325,8 @@ footer > p {
   position: relative;
 }
 
-.footer-links > li, .privacy-policy > li {
+.footer-links > li,
+.privacy-policy > li {
   margin-left: 0.6em;
   padding-left: 0.6em;
   border-left: 1px solid #ccc;
