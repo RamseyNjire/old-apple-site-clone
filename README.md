@@ -25,12 +25,6 @@ I actually got so interested in their methods that I decided ton reproduce the '
 👤 **Ramsey Njire**
 
 - Github: [@RamseyNjire](https://github.com/RamseyNjire)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@untakenramram](https://twitter.com/untakenramram)
 - Linkedin: [Ramsey Njire](https://www.linkedin.com/in/ramsey-njire-51984931/)
 
