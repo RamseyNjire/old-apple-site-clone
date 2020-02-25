@@ -207,7 +207,7 @@ main {
   grid-template-rows: 1fr;
 }
 
-.navigation > li {
+.navigation > * {
   list-style: none;
   outline: none;
   border: none;
