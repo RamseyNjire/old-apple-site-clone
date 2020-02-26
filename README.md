@@ -17,7 +17,9 @@ I actually got so interested in their methods that I decided ton reproduce the '
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/RamseyNjire/old-apple-site-clone/development/index.html)
+[Live Demo Link](https://rawcdn.githack.com/RamseyNjire/old-apple-site-clone/7f025d96c1a3b10d9d38e8847bdc3e84b3b04476/index.html)
+
+Here's a [Production Demo Link](https://raw.githack.com/RamseyNjire/old-apple-site-clone/master/index.html) that changes as changes are made to the code. It's mainly for the sake of future edits.
 
 
 ## Author
